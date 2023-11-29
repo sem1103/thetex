@@ -1,0 +1,36 @@
+#page{
+    min-height: 100vh;
+    background: url(../../img/districtImg/otherpagebg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+main{
+    padding: 25px 0;
+}
+h1{
+    font: 700 42px Roboto;
+    color: #fff;
+    line-height: 57px;
+}
+.page__title{
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 50px;
+}
+.bread__crumps a{
+    color: #fff;
+    font: 13px Montserrat;
+    display: inherit;    
+   
+}
+.bread__crumps li{
+    max-width: inherit;
+}
+
+.bread__line{
+    margin: 0;
+    width: 15px;
+    height: 1px;
+    border: 0;
+    background-color: #fff;
+}

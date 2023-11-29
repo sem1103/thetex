@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+:root {
+    --gray: #333;
+    --blue: #365edc
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    transition: all .3s ease-in-out
+}
+
+#page{
+    min-height: 100vh;
+    background: url(../../img/otherpagebg.png) 0 top/cover;
+}
+main{
+    position: relative;
+}
+
+
+
+
+
+ 
+/*Media*/
+@media only screen and (max-width:1730px) {
+    .container {
+        max-width: 1290px
+    }
+}
+
+@media only screen and (max-width:1550px) {
+    .container {
+        max-width: 1160px
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .container {
+        max-width: 1090px
+    }
+}

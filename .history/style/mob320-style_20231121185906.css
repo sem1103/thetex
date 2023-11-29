@@ -1,0 +1,431 @@
+.nav__right ul,
+.intro__tools,
+.slider__dots,
+.all__news,
+#slide1,
+.owl-dots,
+.numbers__wrapper .owl-dots,
+.project__desc h3,
+.owl-carousel .owl-item h2 img,
+.btn__up,
+.mobMenuHide,
+.mobMenuShow span,
+.mainLogoHide,
+.back__menu,
+.submenu__active .other__menu,
+.desc__arrow {
+    display: none
+}
+
+.logo__name img {
+    width: 100%;
+    height: auto
+}
+
+.info__nav .phone__icon,
+.info__nav .info__icon,
+.info__nav .vis__icon,
+.info__nav .lang__icon {
+    width: 16px
+}
+
+.info__nav select {
+    transform: translate(-5px, -2px)
+}
+
+.nav__right {
+    justify-content: end
+}
+
+
+
+.submenu__active #mainLogo {
+    opacity: 0
+}
+
+.mobile__burger button {
+    padding: 0
+}
+
+
+
+
+
+
+
+
+
+.info__nav .location,
+.info__nav .visually__tools {
+    font-size: .75rem;
+    font-weight: 400;
+    justify-content: start
+}
+
+.info__nav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px
+}
+
+.info__nav>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.search__input {
+    padding: 20px 25px;
+    gap: 10px
+}
+
+.search__input input {
+    width: 100%;
+    font-size: 1.12rem
+}
+
+.search__input svg,
+.search__close {
+    width: 25px;
+    height: 25px
+}
+
+
+
+
+
+.logo__name h4 {
+    font-size: .62rem;
+    line-height: normal
+}
+
+.logo__name img {
+    max-width: 48px
+}
+
+
+
+.intro__slider h1 {
+    font-size: 1.25rem;
+    line-height: normal
+}
+
+.intro__slider p,
+.send__btn {
+    font-size: .75rem;
+    line-height: normal
+}
+
+.send__btn {
+    padding: 5px 8px;
+    font-weight: 600
+}
+
+
+
+.slider__wrapper,
+.slider__wrapper,
+.inform__resources {
+    padding: 0
+}
+
+.slider__wrapper .prev__next {
+    bottom: 0;
+    top: initial;
+    width: 30px;
+    height: 30px;
+    transform: translate(0);
+    background-color: #fff
+}
+
+#slide2 .owl-stage-outer,
+.message__items .owl-stage-outer {
+    overflow: hidden
+}
+
+.news__items .owl-prev,
+.news__items .owl-next,
+.message__items .owl-next,
+.message__items .owl-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.message__items .owl-next,
+.message__items .owl-prev,
+.main__news .owl-next,
+.main__news .owl-prev {
+    top: 35%
+}
+
+.projects__items>button:first-of-type,
+.numbers__wrapper .owl-prev,
+.inform__wrapper .owl-prev,
+.message__items .owl-prev,
+.news__items .owl-prev {
+    left: 8px
+}
+
+.projects__items>button:last-of-type,
+.numbers__wrapper .owl-next,
+.inform__wrapper .owl-next,
+.message__items .owl-next,
+.news__items .owl-next {
+    right: 8px
+}
+
+.owl-next,
+.owl-prev,
+.slider__wrapper>div:first-child {
+    margin: 0
+}
+
+.slider__wrapper .prev__next path {
+    stroke: #333
+}
+
+.slider__wrapper .prev__next svg {
+    width: 6px;
+    height: 10px
+}
+
+.slider__wrapper .prev__next:last-child {
+    right: 10%
+}
+
+.slider__wrapper .prev__next:first-child {
+    left: 65%
+}
+
+.intro__slider__wrapper {
+    padding: 18px 24px 41px
+}
+
+.intro__slider p {
+    margin: 9px 0 20px;
+    width: 90%
+}
+
+.flex__section {
+    margin: 48px auto
+}
+
+.public__services {
+    flex-direction: column;
+    padding: 24px 24px 0;
+    row-gap: 24px
+}
+
+.services__desc {
+    z-index: 1;
+    flex-basis: 50%
+}
+
+.services__desc h4 {
+    font-size: .43rem
+}
+
+.services__desc h3,
+.right__services h3 {
+    font-size: 1rem
+}
+
+.services__desc p {
+    font-size: .5rem
+}
+
+.public__services .send__btn {
+    font-size: .5rem;
+    padding: 10px 15px
+}
+
+.right__services>div:last-child {
+    padding: 0 0 20px 20px
+}
+
+.left__services,
+.right__services,
+.event__activites,
+.message__sect,
+.main__news {
+    position: relative
+}
+
+.services__img {
+    position: absolute;
+    bottom: 0;
+    right: 8px;
+    max-width: 150px;
+    z-index: 0
+}
+
+.img__slider {
+    text-align: center
+}
+
+.img__slider img {
+    width: 80%
+}
+
+.services__img img {
+    width: 100%
+}
+
+.services__sticker {
+    font-size: .62rem;
+    position: absolute;
+    padding: 15px 15px 10px 10px;
+    bottom: 0;
+    right: 0
+}
+
+.right__services .services__desc {
+    flex-basis: 80%
+}
+
+.flex__section h2,
+.slider__title h2 {
+    font-size: 1.5rem
+}
+
+.categories, .event__activites, .hot__numbers {
+    padding: 24px 10px 0;
+    background-color: #f8f8f8;
+}
+.event__activites{
+    padding-top: 30px;
+}
+.hot__numbers{
+    padding-top: 22px;
+}
+
+.categories .s__item {
+    flex-basis: 100%
+}
+
+.categories .s__item p {
+    font-size: 1rem
+}
+
+.message__items article {
+    flex-direction: column;
+    padding: 30px 30px 25px
+}
+
+.message__desc {
+    order: 2;
+    margin: 22px 0 0
+}
+
+.message__desc h3 {
+    margin: 10px 0
+}
+
+.slider__section {
+    padding: 30px 0
+}
+
+.slider__title {
+    margin: 0 auto 24px auto
+}
+
+.project__title {
+    background: 0 0
+}
+
+.project__desc {
+    width: 100%;
+    padding: 11px 0 37px 44px;
+    background: #2040a2
+}
+
+.project__desc h2 {
+    font-size: 1.5rem;
+    margin: 0 0 17px
+}
+
+.project__desc p {
+    font-size: .93rem;
+    width: 100%
+}
+
+.project__desc h2 img {
+    display: none
+}
+
+.owl-carousel .owl-item .mob__icon {
+    display: initial;
+    max-width: 115px
+}
+
+.mob__icon img {
+    width: 100%
+}
+
+.mob__img,
+.news__items .owl-nav,
+.message__items .owl-nav,
+.mob__arrow {
+    display: initial
+}
+
+.mobMenuShow .submenu__menu {
+    display: flex
+}
+
+.municipal__section {
+    margin-bottom: 70px
+}
+
+.municipal__section .s__item {
+    padding: 29px 16px 25px;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: flex-start;
+    row-gap: 18px
+}
+
+.s__item svg {
+    width: 33px;
+    height: 33px
+}
+
+.s__item p {
+    font-size: 1rem
+}
+
+.municipal__section .services__items {
+    row-gap: 24px
+}
+
+.hot__numbers {
+    margin-bottom: 72px
+}
+
+.municipal__section>div:first-child,
+.flex__section>div:first-child {
+    margin: 0 0 24px
+}
+
+.numbers__slider {
+    padding: 0
+}
+
+.phone__item {
+    padding: 17px 30px 28px;
+    margin: 0 24px
+}
+
+.phone__item svg {
+    width: 32px;
+    height: 32px
+}
+
+.phone__item p {
+    font-size: .93rem;
+    margin: 26px 0 13px
+}
+
+
+

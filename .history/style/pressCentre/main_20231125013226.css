@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+:root {
+    --gray: #333;
+    --blue: #365edc
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    transition: all .3s ease-in-out
+}
+#header__wrapper.desc__burger__active {
+    background-color: #33333354;
+}
+
+#page{
+    min-height: 100vh;
+    background: url(../../img/districtImg/otherpagebg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+main{
+    padding: 25px 0;
+}
+
+h1{
+    font: 700 42px Roboto;
+    color: #fff;
+    line-height: 57px;
+}
+.page__title{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 50px;
+}
+
+.bread__crumps a{
+    color: #fff;
+    font: 13px Montserrat;
+    display: inherit;    
+   
+}
+.bread__crumps li{
+    max-width: inherit;
+}
+
+.bread__line{
+    margin: 0;
+    width: 15px;
+    height: 1px;
+    border: 0;
+    background-color: #fff;
+}
+
+.main__section{
+    position: relative;
+    margin: 0 auto 100px auto;
+}
+
+.main__section .intro__tools {
+    top: 19px;
+    transform: translateY(0);
+}
+
+.side__tools{
+    max-width: 354px;
+}
+
+/*----CALENDAR-------*/
+#calendar{
+    display: flex;
+}
+#calendar > div{
+    flex-basis: 100%;
+    padding: 24px;
+}
+#calendar .air-datepicker-nav, #calendar .air-datepicker-body--day-names{
+    padding: 0 0 22px 0;
+}
+
+.air-datepicker-nav--title, #calendar .air-datepicker-nav--title i{
+    color: var(--gray);
+    font: 700 14px Montserrat;
+    line-height: 14px;
+}
+
+#calendar .air-datepicker-body--day-name{
+    color: #B5BEC6;
+    font: 600 10px Montserrat;
+    letter-spacing: 1.5px;
+}
+#calendar .-day-{
+    color: var(--gray);
+    font: 600 15px Montserrat;
+    line-height: 18px;
+    border-radius: 50%;
+    /* padding:  8px; */
+}
+#calendar .-current-{
+    background-color: var(--blue);
+    color: #fff;
+}
+/*----CALENDAR-END---*/
+
+
+/*Gap*/
+.bread__crumps, .page__title{
+    gap: 10px;
+}
+
+
+/*Gap-END*/
+
+
+/*Media*/
+@media only screen and (max-width:1730px) {
+    .container {
+        max-width: 1290px
+    }
+}
+
+@media only screen and (max-width:1300px) {
+    .container {
+        max-width: 1090px
+    }
+}
+
+
+@media only screen and (max-width:1000px) {
+   .bread__crumps a, h1{
+        color: #333;
+    }
+}
+
+
+
+/*Media-END*/

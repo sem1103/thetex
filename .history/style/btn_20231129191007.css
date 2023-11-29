@@ -1,0 +1,31 @@
+.send__btn {
+    padding: 18px 27px;
+    background-color: var(--blue);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: 0;
+    cursor: pointer;
+    color: #fff;
+    font: 400 16px Montserrat;
+    transition: all .5s ease-in-out
+}
+
+.send__btn:hover {
+    border-color: #e5e5e5;
+    background-color: #fff;
+    color: #000
+}
+
+
+
+@media only screen and (max-width:480px){
+    .mobile__menu .send__btn a {
+        margin: 25px 0 21px;
+        align-self: baseline;
+    }
+    .send__btn {
+        padding: 5px 8px;
+        font-weight: 600;
+        font-size: 12px;
+    }
+}

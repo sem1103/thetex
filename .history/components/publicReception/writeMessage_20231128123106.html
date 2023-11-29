@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="writeMessage">
+                            <p class="top__text">
+                                «Виртуальная приемная» позволяет подавать обращения и отслеживать ход их рассмотрения и исполнения выданных по данному обращению поручений. Обращения, направленные с использованием «Виртуальной приемной» регистрируются и рассматриваются наравне с официальной бумажной корреспонденцией.
+                                Для отправки обращения необходимо заполнить поля регистрационной формы и нажать кнопку «Отправить». Звездочками * отмечены обязательные для заполнения поля.
+                            </p>
+                            <form action="" method="post">
+                                <label >
+                                    <p class="fullName">Фамилия Имя Отчество</p>
+                                    <input type="text" name="" id="fullName" required>
+                                </label>
+                               <label>
+                                <p>Почтовый индекс</p>
+                                <input type="text" required>
+                               </label>
+
+                               <label>
+                                <p>Адрес</p>
+                                <input type="text" required>
+                               </label>
+
+                               <label>
+                                <p class="email">Email</p>
+                                <input type="email" name="email" required>
+                               </label>
+
+                               <label>
+                                <p>Телефон</p>
+                                <input type="tel" name="tel" required >
+                               </label>
+
+                               <label>
+                                <p>Тема обращения</p>
+                                <input type="text" name="subject"  required>
+                               </label>
+
+                               <div class="change__order">
+                                <p class="codex">
+                                    В соответствии с частью 1 статьи 7 Федерального закона от 2 мая 2006 года № 59-ФЗ «О порядке рассмотрения обращений граждан Российской Федерации» гражданин в своём обращении в обязательном порядке излагает суть предложения, заявления или жалобы. <br> <br>
+                                    В целях объективного и всестороннего рассмотрения Вашего обращения в установленные сроки необходимо в тексте обращения указывать адрес описанного Вами места действия, факта или события, а также можно указать телефон для возможного уточнения содержания Вашего обращения. 
+                                   </p>
+    
+                                   <label>
+                                    <p class="message__text">Текст обращения</p>
+                                    <textarea name="message" rows="7" required></textarea>
+                                   </label>
+                               </div>
+                               
+                               <div class="upload">
+                                    <p class="upload__text" onclick="uploadFile(this)">
+                                        + Прикрепить файл
+                                    </p>
+                                    <p class="delete__file" onclick="deleteFile()">
+                                        Убрать файл
+                                    </p>
+                                    <input type="file" name="file" >
+                               </div>
+
+                               <div style="width: 100%;">
+                                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+                               </div>
+
+                               <button type="submit">Отправить</button>
+                               
+                               <p class="iagree">
+                                Нажимая на кнопку, я принимаю условия пользовательского соглашения и даю согласие на обработку моих персональных данных.
+                               </p>
+                            </form>
+                        </div>
+</body>
+</html>

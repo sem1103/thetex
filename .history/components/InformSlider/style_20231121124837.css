@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+:root {
+    --gray: #333;
+    --blue: #365edc
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    transition: all .3s ease-in-out
+}
+.inform__slider {
+    position: relative;
+    padding: 0;
+}
+.inform__slider .owl-stage-outer {
+    padding: 12px;
+    overflow: hidden;
+}
+
+.owl-stage, .inform__slider .owl-item {
+    display: flex;
+    align-items: center
+}
+.inform__slider .owl-stage {
+    align-items: stretch;
+}
+.img__slider img {
+    width: 100%;
+    height: auto;
+}
+ h2 {
+    font: 700 40px Roboto;
+    color: #333;
+}
+
+
+.inform__slider .owl-item {
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    justify-content: center;
+    padding: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.inform__wrapper .owl-prev, .inform__wrapper .owl-next{
+    position: absolute;
+    border-radius: 4px;
+    top: 50%;
+    z-index: 9999;
+    transform: translateY(-50%);
+    border: 1px solid #3333331a;
+    background-color: #fff;
+    line-height: 0;
+    transition: all .3s ease-in-out;
+}
+.owl-prev, .owl-next{
+    outline: 0;
+    background: rgba(0, 0, 0, .4);
+    border: 0;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.inform__wrapper .owl-prev {
+    left: -60px;
+}
+
+.inform__wrapper .owl-next {
+    right: -60px;
+}
+
+.owl-nav span {
+    color: #333;
+    font-size: 2em;
+    line-height: .5;
+}

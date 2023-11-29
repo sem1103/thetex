@@ -1,0 +1,16 @@
+#page{
+    background: #fff;
+}
+h1{
+    font-size: 24px;
+    line-height: normal;
+}
+.bread__crumps a{
+    font-size: 10px;
+}
+h1, .bread__crumps a{
+    color: #333;
+}
+.bread__line{
+    background-color: #333;
+}

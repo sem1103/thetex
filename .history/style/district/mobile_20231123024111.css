@@ -1,0 +1,89 @@
+#page{
+    background: #fff;
+    min-height: initial;
+}
+main{
+    padding: 10px 0 0 0 ;
+}
+.menu{
+    margin-bottom: 43px;
+}
+.page__title{
+    margin-bottom: 24px;
+}
+h1{
+    font-size: 24px;
+}
+.visits h2{
+    font-size: 26px;
+}
+.bread__crumps a{
+    font-size: 10px;
+}
+
+
+h1{
+    order: 1;
+}
+
+.main__menu li{
+    flex-basis: 100%;
+}
+.container{
+    padding: 0 24px;
+}
+
+.main__menu button{
+    gap: 20px;
+    padding: 39px 32px;
+}
+.content__show .aboutInform, .error .error__text, .globalCollab__text{
+    padding: 0;
+}
+.content__show  .aboutInform, .globalCollab__text, .error__text{
+    border: 0;
+}
+.visit__desc{
+    padding: 24px 16px 16px 16px;
+}
+
+.visit_item{
+    flex-basis: 100%;
+}
+.document__download{
+    display: none;
+}
+
+.documents__item{
+    padding: 31px 19px;
+}
+.document__data__size{
+    flex-direction: column;
+    align-items: start;
+    margin: 2px 0 0 0;
+}
+
+.bread__crumps a{
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+   
+}
+.bread__crumps li{
+    max-width: 120px;
+}
+
+
+/*Gap*/
+.page__title{
+    gap: 24px;
+}
+
+.bread__crumps{
+    gap: 9px;
+}
+.document__data__size{
+    gap: 0;
+}
+/*----Gap-END*/

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ - "Органы власти"</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/government/main.css">
+
+
+    <link rel="stylesheet" href="components/Header/style.css">
+    <link rel="stylesheet" href="components/SideTool/style.css">
+    <link rel="stylesheet" href="components/InformSlider/style.css">
+    <link rel="stylesheet" href="components/Footer/style.css">
+
+    <link rel="stylesheet" href="dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.css">
+
+    <link rel="stylesheet" href="style/btn.css">
+</head>
+
+<body>
+    <div id="page">
+        <header id="header__wrapper">
+            <div id="header__content"></div>
+        </header>
+
+        <main>
+            <div class="page__title container">
+                <h1>Органы власти</h1>
+                <ul class="bread__crumps cut"></ul>
+                <div class="change__template">
+                    <button class="column__change " onclick="changeTemplate('column', this)">
+                        <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                    </button>
+                    <button class="row__change active__temp" onclick="changeTemplate('row', this)">
+                        <span></span><span></span><span></span><span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+
+            <section class="main__section">
+                <div class="intro__tools"></div>
+
+                <div class="container">
+                    <div class="side__menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <button>Структура администрации</button>
+                                </li>
+                                <li>
+                                    <button>Подведомственные организации</button>
+                                </li>
+                                <li>
+                                    <button>Глава организации</button>
+                                </li>
+                                <li>
+                                    <button>Сотрудники организации</button>
+                                </li>
+                                <li>
+                                    <button>Полномочия задачи и функции</button>
+                                </li>
+                                <li>
+                                    <button>Территориальные органы и представительства</button>
+                                </li>
+
+                                <li>
+                                    <button>Контакты</button>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div class="myDocuments">
+                            <a href="##">
+                                <img src="img/myDocLogo.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+                        <div class="contacts">
+                            <div class="map">
+                                <div>
+                                    <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/1/moscow-and-moscow-oblast/house/ulitsa_zelyony_gorod_4/Z04Yfg5pS00DQFtsfXx4cXRlYA==/?ll=37.899284%2C56.090864&utm_medium=mapframe&utm_source=maps&z=16.44" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Зелёный Город, 4 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.899284%2C56.090864&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgoxNTAwNzU5MjA3EsgB0KDQvtGB0YHQuNGPLCDQnNC-0YHQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0LPQvtGA0L7QtNGB0LrQvtC5INC-0LrRgNGD0LMg0J_Rg9GI0LrQuNC90YHQutC40LksINC00LDRh9C90YvQuSDQv9C-0YHRkdC70L7QuiDQl9C10LvQtdC90L7Qs9GA0LDQtNGB0LrQuNC5LCDRg9C70LjRhtCwINCX0LXQu9GR0L3Ri9C5INCT0L7RgNC-0LQsIDQiCg3emBdCFQxdYEI%2C&z=16.44" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                                </div>
+                                <div class="location">
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+            </section>
+
+
+            <section id="inform__resources"></section>
+
+        </main> 
+        <footer></footer>
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="dist/owl.carousel.min.js" defer></script>
+    <script type="module" src="components/Header/getheader.js"></script>
+    <script type="module" src="scripts/gorovenment.js"></script>
+    <script src="components/SideTool/getSideTool.js"></script>
+    <script src="components/InformSlider/getInfoSlider.js"></script>
+    <script src="components/Footer/getfooter.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+body{
+    height: 100vh;
+    background-color: #2a2f37;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+ul,.info__header, .info__left, .info__right, .soc__icons, .info__phone, .lang__tool{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top__header {
+    padding: 10px 0;
+    background: rgba(0, 0, 0, .2);
+    margin: 0 0 22px;
+    width: 100%;
+}
+.top__header ul{
+    column-gap: 45px;
+}
+.info__left, .top__header a, .info__header a {
+    color: #fff;
+    font: 400 12px Montserrat;
+    align-items: flex-start;
+}
+
+.info__header, .slider__title {
+    justify-content: space-between;
+}
+.info__left, .info__phone {
+    column-gap: 11px;
+}
+.info__right {
+    column-gap: 50px;
+}
+.soc__icons{
+    column-gap: 21px;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+#footer__content{
+    background-color: #333;
+    padding: 55px 0 50px;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+footer section, footer li,
+.logo__name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer section, footer li {
+    justify-content: space-between;
+}
+
+footer .logo__name h4 {
+    color: #fff;
+    font-weight: 400;
+}
+
+/*GAP*/
+.logo__name{
+    gap: 10px;
+}
+
+/*----------*/

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ - "ПРЕСС-ЦЕНТР"</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/pressCentre/main.css">
+    <link rel="stylesheet" href="style/pressCentre/mobile.css" media="(max-width: 480px)">
+
+    <link rel="stylesheet" href="components/Header/style.css">
+    <link rel="stylesheet" href="components/SideTool/style.css">
+    <link rel="stylesheet" href="components/InformSlider/style.css">
+    <link rel="stylesheet" href="components/Footer/style.css">
+
+    <link rel="stylesheet" href="dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="calendar/air-datepicker.css">
+
+
+    <link rel="stylesheet" href="style/btn.css">
+</head>
+
+<body>
+    <div id="page">
+        <header id="header__wrapper">
+            <div id="header__content"></div>
+        </header>
+
+        <main>
+            <div class="page__title container">
+                <h1>Новости</h1>
+                <ul class="bread__crumps">
+                    <li><a href="index.html">Главная</a></li>
+                    <LI class="bread__line"></LI>
+                    <li><a href="#">Пресс-центр</a></li>
+                    <LI class="bread__line"></LI>
+                    <li><a href="#">Новости</a></li>
+                </ul>
+            </div>
+
+            <section aria-label="main block" class="main__section">
+                <div class="intro__tools"></div>
+
+                <div class="container">
+                    <div class="side__tools">
+                        <div class="filter">
+                            <div class="name__groups">
+                                <form action="test.php" method="post">
+                                    <input type="text" name="newsName" id="newsName" placeholder="Название">
+                                    <div id="newsCharper__container">
+                                        <select name="newsCharper" id="newsCharper">
+                                            <option value="Раздел1">Раздел1</option>
+                                            <option value="Раздел2">Раздел2</option>
+                                            <option value="Раздел3">Раздел3</option>
+                                            <option value="Раздел4">Раздел4</option>
+                                        </select>
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7"
+                                                viewBox="0 0 12 7" fill="none">
+                                                <path
+                                                    d="M6.6373 6.76166L11.7357 2.15567C12.0881 1.83731 12.0881 1.32253 11.7357 1.00756L10.8885 0.242153C10.5361 -0.0762019 9.96626 -0.0762019 9.61762 0.242153L6 3.5036L2.38613 0.238766C2.03374 -0.0795889 1.46392 -0.0795889 1.11528 0.238766L0.264293 1.00417C-0.0880976 1.32253 -0.0880976 1.83731 0.264293 2.15228L5.3627 6.75827C5.71509 7.08001 6.28491 7.08001 6.6373 6.76166Z"
+                                                    fill="#333333" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <p>
+                                        Выберите период:
+                                    </p>
+
+
+                                    <div id="calendar"></div>
+
+                                    <div class="send__clead">
+                                        <button type="submit">Фильтр</button>
+                                        <button type="reset">Сбросить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="side__menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="" class="active__menu">Новости</a></li>
+                                    <li><a href="events.html">События</a></li>
+                                    <li><a href="articles.html">Статьи</a></li>
+                                    <li><a href="activity.html">Мероприятия</a></li>
+                                    <li><a href="videoGallery.html">Видеогалерея</a></li>
+                                    <li><a href="photoGallery.html">Фотогалерея</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="content__wrapper">
+
+
+
+                            <div class="news">
+                                <img src="img/newsImg/news1.png" alt="" data-src="img/newsImg/news1.png">
+                                <div class="desc">
+                                    <div>
+                                        <p class="source">Новости ЖКХ 1</p>
+                                        <h3>
+                                            <a href="resultofconferencenews.html">Длинный заголовок в несколько
+                                                строк</a>
+                                        </h3>
+                                        <p class="text">Текст зафиксированная на каком-либо носителе человеческая мысль
+                                            в общем плане связная и полная последовательность символов.</p>
+                                    </div>
+                                    <p class="data">14 февраля 2023</p>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <img src="img/newsImg/news1.png" alt="" data-src="img/newsImg/news1.png">
+                                <div class="desc">
+                                    <div>
+                                        <p class="source">Новости ЖКХ 1</p>
+                                        <h3>
+                                            <a href="resultofconferencenews.html">Длинный заголовок в несколько
+                                                строк</a>
+                                        </h3>
+                                        <p class="text">Текст зафиксированная на каком-либо носителе человеческая мысль
+                                            в общем плане связная и полная последовательность символов.</p>
+                                    </div>
+                                    <p class="data">14 февраля 2023</p>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <img src="img/newsImg/news1.png" alt="" data-src="img/newsImg/news1.png">
+                                <div class="desc">
+                                    <div>
+                                        <p class="source">Новости ЖКХ 1</p>
+                                        <h3>
+                                            <a href="resultofconferencenews.html">Длинный заголовок в несколько
+                                                строк</a>
+                                        </h3>
+                                        <p class="text">Текст зафиксированная на каком-либо носителе человеческая мысль
+                                            в общем плане связная и полная последовательность символов.</p>
+                                    </div>
+                                    <p class="data">14 февраля 2023</p>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <img src="img/newsImg/news1.png" alt="" data-src="img/newsImg/news1.png">
+                                <div class="desc">
+                                    <div>
+                                        <p class="source">Новости ЖКХ 1</p>
+                                        <h3>
+                                            <a href="resultofconferencenews.html">Длинный заголовок в несколько
+                                                строк</a>
+                                        </h3>
+                                        <p class="text">Текст зафиксированная на каком-либо носителе человеческая мысль
+                                            в общем плане связная и полная последовательность символов.</p>
+                                    </div>
+                                    <p class="data">14 февраля 2023</p>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <img src="img/newsImg/news2.png" alt="" data-src="img/newsImg/news2.png">
+                                <div class="desc">
+                                    <div>
+                                        <p class="source">Потребительская сфера 2</p>
+                                        <h3>
+                                            <a href="resultofconferencenews.html">Еще один длинный заголовок в несколько
+                                                строк</a>
+                                        </h3>
+                                        <p class="text">Текст зафиксированная на каком-либо носителе человеческая мысль
+                                            в общем плане связная и полная последовательность символов.</p>
+                                    </div>
+                                    <p class="data">1 марта 2023</p>
+                                </div>
+                            </div>
+                            <div class="news">
+                                <img src="img/newsImg/news3.png" alt="" data-src="img/newsImg/news3.png">
+                                <div class="desc">
+                                    <div>
+                                        <p class="source">Деятельность администрации 3</p>
+                                        <h3>
+                                            <a href="resultofconferencenews.html">Новый еще один заголовок длинный в
+                                                несколько строк</a>
+                                        </h3>
+                                        <p class="text">Текст зафиксированная на каком-либо носителе человеческая мысль
+                                            в общем плане связная и полная последовательность символов.</p>
+                                    </div>
+                                    <p class="data">28 апреля 2023</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="addItemBtn">
+                            Добавить еще
+                        </button>
+
+                    </div>
+                </div>
+
+    </section>
+
+    <section aria-label="inform__resources slider" id="inform__resources"></section>
+    </main>
+
+
+    <footer></footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="dist/owl.carousel.min.js" defer></script>
+
+    <script type="module" src="components/Header/getheader.js" defer></script>
+    <script src="calendar/air-datepicker.js" ></script>
+    <script  src="scripts/gallerySlider.js" defer></script>
+    <script src="components/SideTool/getSideTool.js" defer></script>
+    <script src="components/InformSlider/getInfoSlider.js" defer></script>
+    <script src="components/Footer/getfooter.js" defer></script>
+
+    <script>
+        let clearForm = document.querySelector('button[type="reset"]');
+
+        let dataRange = [];
+        let calendar = new AirDatepicker('#calendar', {
+            range: true,
+            onSelect: (data) => {
+                dataRange = data.formattedDate;
+            },
+            container: document.querySelector('#calendar')
+        });
+
+
+        clearForm.onclick = () => {
+            calendar.clear();
+        }
+    </script>
+</body>
+
+</html>

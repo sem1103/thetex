@@ -1,0 +1,33 @@
+#page{
+    background: #fff;
+}
+main{
+    padding: 10px 0;
+}
+.page__title{
+    margin-bottom: 24px;
+}
+h1{
+    font-size: 24px;
+}
+.bread__crumps a{
+    font-size: 10px;
+}
+
+
+h1{
+    order: 1;
+}
+
+.main__menu li{
+    flex-basis: 100%;
+}
+.container{
+    padding: 0 24px;
+}
+
+/*Gap*/
+.bread__crumps, .page__title{
+    gap: 24px;
+}
+/*----Gap-END*/

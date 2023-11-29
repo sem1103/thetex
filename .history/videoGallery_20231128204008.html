@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ - "ПРЕСС-ЦЕНТР"</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/pressCentre/main.css">
+    <link rel="stylesheet" href="style/pressCentre/mobile.css" media="(max-width: 480px)">
+
+    <link rel="stylesheet" href="components/Header/style.css">
+    <link rel="stylesheet" href="components/SideTool/style.css">
+    <link rel="stylesheet" href="components/InformSlider/style.css">
+    <link rel="stylesheet" href="components/Footer/style.css">
+
+    <link rel="stylesheet" href="dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="calendar/air-datepicker.css">
+
+
+    <link rel="stylesheet" href="style/btn.css">
+</head>
+
+<body>
+    <div id="page">
+        <header id="header__wrapper">
+            <div id="header__content"></div>
+        </header>
+
+        <main>
+            <div class="page__title container">
+                <h1>Мероприятия</h1>
+                <ul class="bread__crumps">
+                    <li><a href="index.html">Главная</a></li>
+                    <div class="bread__line"></div>
+                    <li><a href="news.html">Пресс-центр</a></li>
+                    <div class="bread__line"></div>
+                    <li><a href="#">Мероприятия</a></li>
+                </ul>
+            </div>
+
+            <section class="main__section">
+                <div class="intro__tools"></div>
+
+                <div class="container">
+                    <div class="side__tools">
+                        <div class="filter">
+                            <div class="name__groups">
+                                <form action="" method="post">
+                                    <input type="text" name="newsName" id="newsName" placeholder="Название">
+                                    <div id="newsCharper__container">
+                                        <select name="newsCharper" id="newsCharper">
+                                            <option value="Раздел1">Раздел1</option>
+                                            <option value="Раздел2">Раздел2</option>
+                                            <option value="Раздел3">Раздел3</option>
+                                            <option value="Раздел4">Раздел4</option>
+                                        </select>
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="7"
+                                                viewBox="0 0 12 7" fill="none">
+                                                <path
+                                                    d="M6.6373 6.76166L11.7357 2.15567C12.0881 1.83731 12.0881 1.32253 11.7357 1.00756L10.8885 0.242153C10.5361 -0.0762019 9.96626 -0.0762019 9.61762 0.242153L6 3.5036L2.38613 0.238766C2.03374 -0.0795889 1.46392 -0.0795889 1.11528 0.238766L0.264293 1.00417C-0.0880976 1.32253 -0.0880976 1.83731 0.264293 2.15228L5.3627 6.75827C5.71509 7.08001 6.28491 7.08001 6.6373 6.76166Z"
+                                                    fill="#333333" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                    <p>
+                                        Выберите период:
+                                    </p>
+
+
+                                    <div id="calendar"></div>
+
+                                    <div class="send__clead">
+                                        <button type="submit">Фильтр</button>
+                                        <button type="reset">Сбросить</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="side__menu">
+                            <nav>
+                                <ul>
+                                    <li><a href="news.html">Новости</a></li>
+                                    <li><a href="events.html">События</a></li>
+                                    <li><a href="articles.html">Статьи</a></li>
+                                    <li><a href="activity.html" class="active__menu">Мероприятия</a></li>
+                                    <li><a href="videoGallery.html">Видеогалерея</a></li>
+                                    <li><a href="photoGallery.html">Фотогалерея</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="content__wrapper">
+                            <div class="videoGallery">
+                                <div class="video__preview">
+                                    <img src="img/videoImg/video1.png" alt="" data-src="img/videoImg/video1.png">
+                                    <div class="video__modal__btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="32"
+                                            viewBox="0 0 45 32" fill="none">
+                                            <rect x="13.2422" y="7" width="18.3749" height="18" fill="white"></rect>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17.9363 21.9011L17.9349 9.11788L29.6933 15.5315L17.9363 21.9011ZM43.7542 6.90275C43.7542 6.90275 43.3285 3.76773 42.0243 2.38718C40.3692 0.574409 38.5142 0.565862 37.6642 0.46065C31.5742 -6.67572e-06 22.4392 0 22.4392 0H22.4201C22.4201 0 13.2851 -6.67572e-06 7.19513 0.46065C6.34378 0.565862 4.49012 0.574409 2.83366 2.38718C1.52944 3.76773 1.10511 6.90275 1.10511 6.90275C1.10511 6.90275 0.669922 10.5852 0.669922 14.2661V17.7182C0.669922 21.4006 1.10511 25.0816 1.10511 25.0816C1.10511 25.0816 1.52944 28.2166 2.83366 29.5972C4.49012 31.41 6.66472 31.3531 7.63303 31.5422C11.1146 31.892 22.4297 32 22.4297 32C22.4297 32 31.5742 31.9858 37.6642 31.5251C38.5142 31.4185 40.3692 31.41 42.0243 29.5972C43.3285 28.2166 43.7542 25.0816 43.7542 25.0816C43.7542 25.0816 44.1894 21.4006 44.1894 17.7182V14.2661C44.1894 10.5852 43.7542 6.90275 43.7542 6.90275Z"
+                                                fill="#CE1312"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <div class="data">14 февраля 2023</div>
+                                    <h3>Длинный заголовок в несколько строк</h3>
+                                </div>
+                            </div>
+                            <div class="videoGallery">
+                                <div class="video__preview">
+                                    <img src="img/videoImg/video2.png" alt="" data-src="img/videoImg/video2.png">
+                                    <div class="video__modal__btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="32"
+                                            viewBox="0 0 45 32" fill="none">
+                                            <rect x="13.2422" y="7" width="18.3749" height="18" fill="white"></rect>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17.9363 21.9011L17.9349 9.11788L29.6933 15.5315L17.9363 21.9011ZM43.7542 6.90275C43.7542 6.90275 43.3285 3.76773 42.0243 2.38718C40.3692 0.574409 38.5142 0.565862 37.6642 0.46065C31.5742 -6.67572e-06 22.4392 0 22.4392 0H22.4201C22.4201 0 13.2851 -6.67572e-06 7.19513 0.46065C6.34378 0.565862 4.49012 0.574409 2.83366 2.38718C1.52944 3.76773 1.10511 6.90275 1.10511 6.90275C1.10511 6.90275 0.669922 10.5852 0.669922 14.2661V17.7182C0.669922 21.4006 1.10511 25.0816 1.10511 25.0816C1.10511 25.0816 1.52944 28.2166 2.83366 29.5972C4.49012 31.41 6.66472 31.3531 7.63303 31.5422C11.1146 31.892 22.4297 32 22.4297 32C22.4297 32 31.5742 31.9858 37.6642 31.5251C38.5142 31.4185 40.3692 31.41 42.0243 29.5972C43.3285 28.2166 43.7542 25.0816 43.7542 25.0816C43.7542 25.0816 44.1894 21.4006 44.1894 17.7182V14.2661C44.1894 10.5852 43.7542 6.90275 43.7542 6.90275Z"
+                                                fill="#CE1312"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <div class="data">14 февраля 2023</div>
+                                    <h3>Длинный заголовок в несколько строк</h3>
+                                </div>
+                            </div>
+                            <div class="videoGallery">
+                                <div class="video__preview">
+                                    <img src="img/videoImg/video3.png" alt="" data-src="img/videoImg/video3.png">
+                                    <div class="video__modal__btn">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="32"
+                                            viewBox="0 0 45 32" fill="none">
+                                            <rect x="13.2422" y="7" width="18.3749" height="18" fill="white"></rect>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M17.9363 21.9011L17.9349 9.11788L29.6933 15.5315L17.9363 21.9011ZM43.7542 6.90275C43.7542 6.90275 43.3285 3.76773 42.0243 2.38718C40.3692 0.574409 38.5142 0.565862 37.6642 0.46065C31.5742 -6.67572e-06 22.4392 0 22.4392 0H22.4201C22.4201 0 13.2851 -6.67572e-06 7.19513 0.46065C6.34378 0.565862 4.49012 0.574409 2.83366 2.38718C1.52944 3.76773 1.10511 6.90275 1.10511 6.90275C1.10511 6.90275 0.669922 10.5852 0.669922 14.2661V17.7182C0.669922 21.4006 1.10511 25.0816 1.10511 25.0816C1.10511 25.0816 1.52944 28.2166 2.83366 29.5972C4.49012 31.41 6.66472 31.3531 7.63303 31.5422C11.1146 31.892 22.4297 32 22.4297 32C22.4297 32 31.5742 31.9858 37.6642 31.5251C38.5142 31.4185 40.3692 31.41 42.0243 29.5972C43.3285 28.2166 43.7542 25.0816 43.7542 25.0816C43.7542 25.0816 44.1894 21.4006 44.1894 17.7182V14.2661C44.1894 10.5852 43.7542 6.90275 43.7542 6.90275Z"
+                                                fill="#CE1312"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="desc">
+                                    <div class="data">14 февраля 2023</div>
+                                    <h3>Длинный заголовок в несколько строк</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="addItemBtn">
+                            Добавить еще
+                        </button>
+
+                    </div>
+                </div>
+
+    </div>
+    </section>
+
+    <section id="inform__resources"></section>
+    </main>
+
+
+    <footer></footer>
+
+    <div class="video__modal" onclick="closeVideo(this)">
+        <div class="video__display">
+            <iframe width="100%" src="" title="" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+    </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="dist/owl.carousel.min.js" defer></script>
+
+    <script type="module" src="components/Header/getheader.js"></script>
+    <script src="calendar/air-datepicker.js"></script>
+    <script type="module" src="scripts/gallerySlider.js"></script>
+    <script type="module" src="scripts/pressCentre.js"></script>
+    <script src="components/SideTool/getSideTool.js"></script>
+    <script src="components/InformSlider/getInfoSlider.js"></script>
+    <script src="components/Footer/getfooter.js"></script>
+</body>
+
+</html>

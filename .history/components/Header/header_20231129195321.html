@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+ 
+</head>
+
+<body>
+   
+        <div id="header__content">
+
+            <!--Search-->
+            <div class="search__wrapper">
+                <div class="search__input">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.049 0.00463867C8.67754 0.00463867 1.89111 6.79105 1.89111 15.1625C1.89111 23.534 8.67754 30.3203 17.049 30.3203C20.5519 30.3203 23.7771 29.1324 26.3439 27.137L32.7618 33.5549C33.5019 34.2949 34.7014 34.2949 35.4415 33.5549C36.1814 32.815 36.1814 31.6154 35.4415 30.8753L29.0235 24.4575C31.0188 21.8907 32.2068 18.6653 32.2068 15.1625C32.2068 6.79105 25.4204 0.00463867 17.049 0.00463867ZM5.68059 15.1625C5.68059 8.88392 10.7704 3.79411 17.049 3.79411C23.3277 3.79411 28.4173 8.88392 28.4173 15.1625C28.4173 21.441 23.3277 26.5309 17.049 26.5309C10.7704 26.5309 5.68059 21.441 5.68059 15.1625Z"
+                                fill="#888888"></path>
+                        </svg>
+                    </div>
+                    <input type="text" name="search" placeholder="Поиск по сайту">
+                    <button class="search__close" onclick="searhModalHandler()"></button>
+                </div>
+            </div>
+    
+            <!--DescBurger-->
+            <div class="desc__burger__menu container">
+                <div class="top__menu">
+                    <div>
+                        <div class="left__menu">
+                            <div class="close__desc__burger">
+                                <button onclick="descBurgerHundler()"></button>
+                            </div>
+    
+                            <div class="top__menu__logo">
+                                <div class="logo__name">
+                                    <img width="66" height="66"  src="img/logo.webp" alt="Logo"
+                                        decoding="async">
+                                    <h4>АДМИНИСТРАЦИЯ <br> МУНИЦИПАЛЬНОГО <br> ОБРАЗОВАНИЯ </h4>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="right__menu">
+                            <div class="phone">
+                                <div class="phone__icon">
+                                    <img width="8" height="14"  src="img/phone2.webp"
+                                        alt="PhoneIcon" loading="lazy" decoding="async">
+                                </div>
+                                <a href="tel:+70000000000">+7 000 000-00-00</a>
+    
+                            </div>
+                            <div class="send__message">
+                                <a href="writemessage.html" class="send__btn">Оставить обращение</a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="desc__menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="aboutDistrict.html" data-id="district">О районе </a>
+                                    <span class="line active__line"></span>
+                                </li>
+                                <li>
+                                    <a href="#" data-id="government">Органы власти</a>
+                                    <span class="line"></span>
+                                </li>
+                                <li>
+                                    <a href="documents.html" data-id="documents">Документы</a>
+                                    <span class="line"></span>
+                                </li>
+                                <li>
+                                    <a href="services.html">Услуги</a>
+                                    <span class="line"></span>
+                                </li>
+                                <li>
+                                    <a href="#" data-id="pressCentre">Пресс-центр</a>
+                                    <span class="line"></span>
+                                </li>
+                                <li>
+                                    <a href="#">Горожанам</a>
+                                    <span class="line"></span>
+                                </li>
+                            </ul>
+                        </nav>
+    
+                        <div class="desc__submenu">
+                            <ul class="submenu__menu active__submenu district" data-id="district">
+                                <li><a href="aboutInform.html">Общая информация</a></li>
+                                <li><a href="#">История</a></li>
+                                <li><a href="#">Туризм и отдых</a></li>
+                                <li><a href="#">СМИ района</a></li>
+                                <li><a href="globalCollab.html">Международное сотрудничество</a></li>
+                                <li><a href="#">Защита населения и территории от ЧС</a></li>
+                                <li><a href="staticInfo.html">Статическая информация</a></li>
+                                <li><a href="legislativeMap.html">Законодательная карта</a></li>
+                            </ul>
+
+                            <ul class="submenu__menu documents " data-id="documents">
+                                <li><a href="documents.html">Поиск по документами</a></li>
+                                <li><a href="regulatoryActs.html">Нормативно-правовые акты</a></li>
+                                <li><a href="#">Регламенты государственных и муниципальных услуг</a></li>
+                                <li><a href="#">Отчеты</a></li>
+                                <li><a href="#">Независимая антикоррупционная экспертиза нормативно-правовых актов</a></li>
+                            </ul>
+    
+                            <ul class="submenu__menu" >
+    
+                               
+                            </ul>
+
+                            <ul class="submenu__menu pressCentre" data-id="pressCentre">
+                                <li><a href="news.html">Новости</a></li>
+                                <li><a href="events.html">События</a></li>
+                                <li><a href="#">Статьи</a></li>
+                                <li><a href="activity.html">Мероприятия</a></li>
+                                <li><a href="videoGallery.html">Видеогалерея</a></li>
+                                <li><a href="photoGallery.html">Фотогалерея</a></li>
+                            </ul>
+
+                            <ul class="submenu__menu government"  data-id="government">
+                                <li><a href="adminStructure.html">Структура администрации</a></li>
+                                <li><a href="#">Подведомственные организации</a></li>
+                                <li><a href="headOrganization.html">Глава организации</a></li>
+                                <li><a href="employeesOrganization.html">Сотрудники организации</a></li>
+                                <li><a href="#">Полномочия задачи и функции</a></li>
+                                <li><a href="#">Территориальные органы и представительства</a></li>
+                                <li><a href="contacts.html">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="info__header">
+                    <div class="info__left">
+                        <div>
+                            <div class="info__icon">
+                                <img width="10" height="13"  src="img/loc2.webp" alt="LocationIcon"
+                                    loading="lazy" decoding="async">
+                            </div>
+                            <h5>Город, ул. Название 21, 3 этаж, офис 4</h5>
+                        </div>
+                        <div class="soc__icons">
+                            <div class="vk__icon">
+                                <a href="#"><img width="15" height="9"  src="img/vk2.webp"
+                                        alt="VkIcon" loading="lazy" decoding="async"> </a>
+                            </div>
+                            <div class="tg__icon">
+                                <a href="#"><img width="14" height="12"  src="img/tg2.webp"
+                                        alt="TgIcon" loading="lazy" decoding="async"> </a>
+                            </div>
+                            <div class="youtube__icon">
+                                <a href="#">
+                                    <img width="15" height="13"  src="img/yt2.webp" alt="YtIcon"
+                                        loading="lazy" decoding="async">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="info__right">
+                        <div class="lang__tool">
+                            <div class="lang__icon">
+                                <label for="lang2"><img width="18" height="18" 
+                                        src="img/lang2.webp" alt="LangIcon" loading="lazy" decoding="async"></label>
+                            </div>
+                            <select name="lang" id="lang2" class="lang__select">
+                                <option value="ru">RU</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </div>
+                        <div class="visually__tools">
+                            <div class="vis__icon">
+                                <img width="20" height="18"  src="img/vis2.webp" alt="VisualIcon"
+                                    loading="lazy" decoding="async">
+                            </div>
+                            <a href="#">Версия для слабовидящих</a>
+                        </div>
+    
+                        <div class="search">
+                            <button class="search__icon" onclick="searhModalHandler()">
+                                <img width="18" height="18"  src="img/search2.webp"
+                                    alt="SearchIcon" loading="lazy" decoding="async">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!--TopHeader-->
+            <div class="top__header">
+                <nav class="container">
+                    <ul>
+                        <li><a href="#">Общественная приемная</a></li>
+                        <li><a href="legislativeMap.html">Законодательная карта</a></li>
+                        <li><a href="#">Противодействие коррупции</a></li>
+                    </ul>
+                </nav>
+            </div>
+    
+            <!--MainHeader-->
+            <div class="main__header container">
+    
+                <div class="info__header">
+                    <div class="info__left">
+                        <div class="info__icon">
+                            <img width="10" height="13"  src="img/loc1.webp" alt="LocationIcon"
+                                loading="lazy" decoding="async">
+                        </div>
+                        <h5><a href="contacts.html">Город, ул. Название 21, 3 этаж, офис 4</a></h5>
+                    </div>
+    
+                    <div class="info__right">
+                        <div class="soc__icons">
+                            <div class="vk__icon">
+                                <a href="#"><img width="15" height="9"  src="img/vk1.webp"
+                                        alt="Vkicon" loading="lazy" decoding="async"> </a>
+                            </div>
+                            <div class="tg__icon">
+                                <a href="#"><img width="14" height="12"  src="img/tg1.webp"
+                                        alt="TelegrammIcon" loading="lazy" decoding="async"> </a>
+                            </div>
+                            <div class="youtube__icon">
+                                <a href="#">
+                                    <img width="15" height="13"  src="img/yt1.webp" alt="YouTubeIcon"
+                                        loading="lazy" decoding="async">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="info__phone">
+                            <div class="phone__icon">
+                                <img width="8" height="14"  src="img/phone1.webp" alt="PhoneIcon"
+                                    loading="lazy" decoding="async">
+                            </div>
+                            <a href="tel:+70000000000">+7 000 000-00-00</a>
+                        </div>
+                        <div class="lang__tool">
+                            <div class="lang__icon">
+                                <label for="lang1"><img width="18" height="18" 
+                                        src="img/lang2.webp" alt="LangIcon" loading="lazy" decoding="async"></label>
+                            </div>
+                            <select name="lang" id="lang1" class="lang__select">
+                                <option value="ru">RU</option>
+                                <option value="en">EN</option>
+                            </select>
+                        </div>
+                        <div class="visually__tools">
+                            <div class="vis__icon">
+                                <img width="20" height="18"  src="img/vis1.webp" alt="VisualIcon"
+                                    loading="lazy" decoding="async">
+                            </div>
+                            <a href="#">Версия для слабовидящих</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <nav class="main__nav">
+    
+                    <div class="nav__left">
+                        <div class="desc__burger">
+                            <button onclick="descBurgerHundler()">
+                                <span> </span>
+                                <span> </span>
+                            </button>
+                        </div>
+                        <div class="mobile__burger">
+                            <button onclick="mobileMenuHandler()">
+                                <span> </span>
+                                <span> </span>
+                            </button>
+                        </div>
+                        <div class="back__menu" onclick="closeSubMenu()">
+                            <svg width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g opacity="0.5">
+                                    <g clip-path="url(#clip0_255_3569)">
+                                        <path d="M3.87158 1L0.967769 4L3.87158 7" stroke="#333333" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                    <path d="M1.93579 3H19.3587V5H1.93579V3Z" fill="#333333"></path>
+                                </g>
+                                <defs>
+    
+                                    <rect width="4.83969" height="8" fill="white" transform="matrix(-1 0 0 1 4.8396 0)">
+                                    </rect>
+    
+                                </defs>
+                            </svg>
+    
+                        </div>
+                        <div class="logo__name" id="mainLogo">
+                            <a href="index.html"><img width="66" height="66"  src="img/logo.webp" alt="Logo"
+                                decoding="async"></a>
+                            <h4><a href="index.html">АДМИНИСТРАЦИЯ <br> МУНИЦИПАЛЬНОГО <br> ОБРАЗОВАНИЯ </a></h4>
+                        </div>
+                    </div>
+    
+                    <div class="nav__right">
+                        <ul>
+                            <li>
+                                <div>
+                                    <a href="index.html">Главная</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="aboutDistrict.html">О районе</a>
+                                    <span class="tablet__icon">
+    
+                                        <svg width="14" height="16px" viewBox="0 0 1024 1024"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#333" d="m192 384 320 384 320-384z"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <ul class="submenu__menu district"  >
+                                    <li><a href="aboutInform.html">Общая информация</a></li>
+                                    <li><a href="#">История</a></li>
+                                    <li><a href="#">Туризм и отдых</a></li>
+                                    <li><a href="#">СМИ района</a></li>
+                                    <li><a href="globalCollab.html">Международное сотрудничество</a></li>
+                                    <li><a href="#">Защита населения и территории от ЧС</a></li>
+                                    <li><a href="staticInfo.html">Статическая информация</a></li>
+                                    <li><a href="legislativeMap.html">Законодательная карта</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#">Органы власти</a>
+                                    <span class="tablet__icon">
+    
+                                        <svg width="14" height="16px" viewBox="0 0 1024 1024"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="#333" d="m192 384 320 384 320-384z"></path>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <ul class="submenu__menu government">
+                                    <li><a href="adminStructure.html">Структура администрации</a></li>
+                                    <li><a href="#">Подведомственные организации</a></li>
+                                    <li><a href="headOrganization.html">Глава организации</a></li>
+                                    <li><a href="employeesOrganization.html">Сотрудники организации</a></li>
+                                    <li><a href="#">Полномочия задачи и функции</a></li>
+                                    <li><a href="#">Территориальные органы и представительства</a></li>
+                                    <li><a href="contacts.html">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="documents.html">Документы</a>
+                                </div>
+
+                                <ul class="submenu__menu documents ">
+                                    <li><a href="documents.html">Поиск по документами</a></li>
+                                    <li><a href="regulatoryActs.html">Нормативно-правовые акты</a></li>
+                                    <li><a href="#">Регламенты государственных и муниципальных услуг</a></li>
+                                    <li><a href="#">Отчеты</a></li>
+                                    <li><a href="#">Независимая антикоррупционная экспертиза нормативно-правовых актов</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="services.html">Услуги</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#">Пресс-центр</a>
+                                </div>
+
+                                <ul class="submenu__menu pressCentre">
+                                    <li><a href="news.html">Новости</a></li>
+                                    <li><a href="events.html">События</a></li>
+                                    <li><a href="#">Статьи</a></li>
+                                    <li><a href="activity.html">Мероприятия</a></li>
+                                    <li><a href="videoGallery.html">Видеогалерея</a></li>
+                                    <li><a href="photoGallery.html">Фотогалерея</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#">Горожанам</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="search">
+                            <button class="search__icon mobile__search" onclick="searhModalHandler()">
+                                <img width="19" height="19"  src="img/search1.webp"
+                                    alt="SearchIcon" loading="lazy" decoding="async">
+                            </button>
+    
+                            <button class="search__close" onclick="mobileMenuHandler()"></button>
+                        </div>
+                    </div>
+                </nav>
+    
+    
+                <div class="mobile__menu">
+                    <nav>
+                        <ul>
+                            <li>
+                                <div>
+                                    <a href="aboutDistrict.html">О районе</a>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_255_3491)">
+                                                <path
+                                                    d="M0.0180664 1.44844L0.0180664 5.54553C0.0180664 5.94716 0.467669 6.18488 0.799587 5.95874L3.79793 3.91599C4.08877 3.71784 4.08933 3.28922 3.79901 3.0903L0.800675 1.03596C0.46886 0.808624 0.0180664 1.04621 0.0180664 1.44844Z"
+                                                    fill="#333333"></path>
+                                            </g>
+                                            <defs>
+    
+                                                <rect width="7" height="5" fill="white" transform="matrix(0 -1 1 0 0 7)">
+                                                </rect>
+    
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </div>
+    
+                                <ul class="submenu__menu district">
+                                    <li><a href="aboutInform.html">Общая информация</a></li>
+                                    <li><a href="#">История</a></li>
+                                    <li><a href="#">Туризм и отдых</a></li>
+                                    <li><a href="#">СМИ района</a></li>
+                                    <li><a href="globalCollab.html">Международное сотрудничество</a></li>
+                                    <li><a href="#">Защита населения и территории от ЧС</a></li>
+                                    <li><a href="staticInfo.html">Статическая информация</a></li>
+                                    <li><a href="legislativeMap.html">Законодательная карта</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#">Органы власти</a>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_255_3492)">
+                                                <path
+                                                    d="M0.0180664 1.44844L0.0180664 5.54553C0.0180664 5.94716 0.467669 6.18488 0.799587 5.95874L3.79793 3.91599C4.08877 3.71784 4.08933 3.28922 3.79901 3.0903L0.800675 1.03596C0.46886 0.808624 0.0180664 1.04621 0.0180664 1.44844Z"
+                                                    fill="#333333"></path>
+                                            </g>
+                                            <defs>
+    
+                                                <rect width="7" height="5" fill="white" transform="matrix(0 -1 1 0 0 7)">
+                                                </rect>
+    
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </div>
+                                <ul class="submenu__menu government">
+                                    <li><a href="adminStructure.html">Структура администрации</a></li>
+                                    <li><a href="#">Подведомственные организации</a></li>
+                                    <li><a href="headOrganization.html">Глава организации</a></li>
+                                    <li><a href="employeesOrganization.html">Сотрудники организации</a></li>
+                                    <li><a href="#">Полномочия задачи и функции</a></li>
+                                    <li><a href="#">Территориальные органы и представительства</a></li>
+                                    <li><a href="contacts.html">Контакты</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="documents.html">Документы</a>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_255_3493)">
+                                                <path
+                                                    d="M0.0180664 1.44844L0.0180664 5.54553C0.0180664 5.94716 0.467669 6.18488 0.799587 5.95874L3.79793 3.91599C4.08877 3.71784 4.08933 3.28922 3.79901 3.0903L0.800675 1.03596C0.46886 0.808624 0.0180664 1.04621 0.0180664 1.44844Z"
+                                                    fill="#333333"></path>
+                                            </g>
+                                            <defs>
+    
+                                                <rect width="7" height="5" fill="white" transform="matrix(0 -1 1 0 0 7)">
+                                                </rect>
+    
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </div>
+
+                                <ul class="submenu__menu documents " data-id="documents">
+                                    <li><a href="documents.html">Поиск по документами</a></li>
+                                    <li><a href="regulatoryActs.html">Нормативно-правовые акты</a></li>
+                                    <li><a href="#">Регламенты государственных и муниципальных услуг</a></li>
+                                    <li><a href="#">Отчеты</a></li>
+                                    <li><a href="#">Независимая антикоррупционная экспертиза нормативно-правовых актов</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="services.html">Услуги</a>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_255_3494)">
+                                                <path
+                                                    d="M0.0180664 1.44844L0.0180664 5.54553C0.0180664 5.94716 0.467669 6.18488 0.799587 5.95874L3.79793 3.91599C4.08877 3.71784 4.08933 3.28922 3.79901 3.0903L0.800675 1.03596C0.46886 0.808624 0.0180664 1.04621 0.0180664 1.44844Z"
+                                                    fill="#333333"></path>
+                                            </g>
+                                            <defs>
+    
+                                                <rect width="7" height="5" fill="white" transform="matrix(0 -1 1 0 0 7)">
+                                                </rect>
+    
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#">Пресс-центр</a>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_255_3495)">
+                                                <path
+                                                    d="M0.0180664 1.44844L0.0180664 5.54553C0.0180664 5.94716 0.467669 6.18488 0.799587 5.95874L3.79793 3.91599C4.08877 3.71784 4.08933 3.28922 3.79901 3.0903L0.800675 1.03596C0.46886 0.808624 0.0180664 1.04621 0.0180664 1.44844Z"
+                                                    fill="#333333"></path>
+                                            </g>
+                                            <defs>
+    
+                                                <rect width="7" height="5" fill="white" transform="matrix(0 -1 1 0 0 7)">
+                                                </rect>
+    
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </div>
+
+                                <ul class="submenu__menu pressCentre">
+                                    <li><a href="news.html">Новости</a></li>
+                                    <li><a href="events.html">События</a></li>
+                                    <li><a href="#">Статьи</a></li>
+                                    <li><a href="activity.html">Мероприятия</a></li>
+                                    <li><a href="videoGallery.html">Видеогалерея</a></li>
+                                    <li><a href="photoGallery.html">Фотогалерея</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div>
+                                    <a href="#">Горожанам</a>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="5" height="7" viewBox="0 0 5 7"
+                                            fill="none">
+                                            <g clip-path="url(#clip0_255_3496)">
+                                                <path
+                                                    d="M0.0180664 1.44844L0.0180664 5.54553C0.0180664 5.94716 0.467669 6.18488 0.799587 5.95874L3.79793 3.91599C4.08877 3.71784 4.08933 3.28922 3.79901 3.0903L0.800675 1.03596C0.46886 0.808624 0.0180664 1.04621 0.0180664 1.44844Z"
+                                                    fill="#333333"></path>
+                                            </g>
+                                            <defs>
+    
+                                                <rect width="7" height="5" fill="white" transform="matrix(0 -1 1 0 0 7)">
+                                                </rect>
+    
+                                            </defs>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <div class="other__menu">
+                        <a href="writemessage.html" class="send__btn">
+                            Оставить обращение
+                        </a>
+                        <div class="info__nav">
+                            <div>
+                                <div class="info__phone">
+                                    <div class="phone__icon">
+                                        <img width="8" height="14" src="img/phone1.webp" alt="PhoneIcon" loading="lazy"
+                                             decoding="async">
+                                    </div>
+                                    <a href="tel:+70000000000">+7 000 000-00-00</a>
+                                </div>
+                                <div class="soc__icons">
+                                    <div class="vk__icon">
+                                        <a href="#"><img width="15" height="9" src="img/vk1.webp" alt="Vkicon"
+                                                loading="lazy"  decoding="async"> </a>
+                                    </div>
+                                    <div class="tg__icon">
+                                        <a href="#"><img width="14" height="12" 
+                                                src="img/tg1.webp" alt="TelegrammIcon" loading="lazy"
+                                                decoding="async"></a>
+                                    </div>
+                                    <div class="youtube__icon">
+                                        <a href="#">
+                                            <img width="15" height="13"  src="img/yt1.webp"
+                                                alt="YouTubeIcon" loading="lazy" decoding="async">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="location">
+                                <div class="info__icon">
+                                    <img width="10" height="13"  src="img/loc1.webp"
+                                        alt="LocationIcon" loading="lazy" decoding="async">
+                                </div>
+                                <h5>Город, ул. Название 21, 3 этаж, офис 4</h5>
+                            </div>
+    
+                            <div class="visually__tools">
+                                <div class="vis__icon">
+                                    <img width="15" height="14"  src="img/vis1.webp"
+                                        alt="VisualIcon" loading="lazy" decoding="async">
+                                </div>
+                                <a href="#">Версия для слабовидящих</a>
+                            </div>
+    
+                            <div class="lang__tool">
+                                <div class="lang__icon">
+                                    <label for="lang3"><img width="18" height="18" 
+                                            src="img/lang1.webp" alt="LangIcon" loading="lazy"
+                                            decoding="async"></label>
+                                </div>
+                                <select name="lang" id="lang3" class="lang__select">
+                                    <option value="ru">RU</option>
+                                    <option value="en">EN</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+       
+    
+
+
+    
+</body>
+
+</html>

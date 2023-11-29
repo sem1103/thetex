@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ - "ПРЕСС-ЦЕНТР"</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/pressCentre/main.css">
+    <link rel="stylesheet" href="style/pressCentre/mobile.css" media="(max-width: 480px)">
+
+    <link rel="stylesheet" href="components/Header/style.css">
+    <link rel="stylesheet" href="components/SideTool/style.css">
+    <link rel="stylesheet" href="components/InformSlider/style.css">
+    <link rel="stylesheet" href="components/Footer/style.css">
+
+    <link rel="stylesheet" href="dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="calendar/air-datepicker.css">
+
+
+    <link rel="stylesheet" href="style/btn.css">
+</head>
+<body>
+    <div id="page">
+        <header id="header__wrapper">
+            <div id="header__content"></div>
+        </header>
+
+        <main>
+            <div class="page__title container">
+                <h1>О районе</h1>
+                <ul class="bread__crumps"></ul>
+            </div>
+
+            <section class="main__section">
+                <div class="intro__tools"></div>
+
+                <div class="container">
+                    <div class="side__tools">
+                        <div class="filter">
+                            <div class="name__groups">
+                                <form action="POST">
+                                    <input type="text" name="newsName">
+                                    <select name="newsCharper" id="">
+                                        <option value="Раздел1">Раздел1</option>
+                                        <option value="Раздел2">Раздел2</option>
+                                        <option value="Раздел3">Раздел3</option>
+                                        <option value="Раздел4">Раздел4</option>
+                                    </select>
+                                    <p>
+                                        Выберите период:
+                                    </p>
+    
+                                   
+                                    <div id="calendar"></div>
+
+                                    <button type="submit">Фильтр</button>
+                                    <button type="reset">Сбросить</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="inform__resources"></section>
+        </main>
+
+
+        <footer></footer>
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    <script src="dist/owl.carousel.min.js" defer></script>
+
+    <script type="module" src="components/Header/getheader.js"></script>
+    <script src="calendar/air-datepicker.js"></script>
+    <script type="module" src="scripts/pressCentre.js"></script>
+    <script src="components/SideTool/getSideTool.js"></script>
+    <script src="components/InformSlider/getInfoSlider.js"></script>
+    <script src="components/Footer/getfooter.js"></script>
+</body>
+</html>

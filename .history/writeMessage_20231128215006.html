@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АДМИНИСТРАЦИЯ МУНИЦИПАЛЬНОГО ОБРАЗОВАНИЯ - "Органы власти"</title>
+
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/publicreception.css">
+
+
+    <link rel="stylesheet" href="components/Header/style.css">
+    <link rel="stylesheet" href="components/SideTool/style.css">
+    <link rel="stylesheet" href="components/InformSlider/style.css">
+    <link rel="stylesheet" href="components/Footer/style.css">
+
+    <link rel="stylesheet" href="dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.css">
+
+    <link rel="stylesheet" href="style/btn.css">
+</head>
+<body>
+
+    <div id="page">
+        <header id="header__wrapper">
+            <div id="header__content"></div>
+        </header>
+
+        <main>
+            <div class="page__title container">
+                <h1>Общественная приемная</h1>
+                <ul class="bread__crumps cut"></ul>
+            </div>
+
+            <section class="main__section">
+                <div class="intro__tools"></div>
+
+                <div class="container">
+                    <div class="side__menu">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <a href="#" class="active__menu">Написать обращение</a>
+                                </li>
+                                <li>
+                                    <a href="#">Порядок и время приема</a>
+                                </li>
+                                <li>
+                                    <a href="#">Порядок обжалования</a>
+                                </li>
+                                <li>
+                                    <a href="#">Работа с обращениями граждан</a>
+                                </li>
+                               
+
+                            </ul>
+                        </nav>
+
+                    </div>
+
+                    <div class="content">
+                        <div class="writeMessage">
+                            <p class="top__text">
+                                «Виртуальная приемная» позволяет подавать обращения и отслеживать ход их рассмотрения и исполнения выданных по данному обращению поручений. Обращения, направленные с использованием «Виртуальной приемной» регистрируются и рассматриваются наравне с официальной бумажной корреспонденцией.
+                                Для отправки обращения необходимо заполнить поля регистрационной формы и нажать кнопку «Отправить». Звездочками * отмечены обязательные для заполнения поля.
+                            </p>
+                            <form action="" method="post">
+                                <label>
+                                    <p class="fullName">Фамилия Имя Отчество</p>
+                                    <input type="text" name="" id="fullName" required="">
+                                </label>
+                               <label>
+                                <p>Почтовый индекс</p>
+                                <input type="text" required="">
+                               </label>
+
+                               <label>
+                                <p>Адрес</p>
+                                <input type="text" required="">
+                               </label>
+
+                               <label>
+                                <p class="email">Email</p>
+                                <input type="email" name="email" required="">
+                               </label>
+
+                               <label>
+                                <p>Телефон</p>
+                                <input type="tel" name="tel" required="">
+                               </label>
+
+                               <label>
+                                <p>Тема обращения</p>
+                                <input type="text" name="subject" required="">
+                               </label>
+
+                               <div class="change__order">
+                                <p class="codex">
+                                    В соответствии с частью 1 статьи 7 Федерального закона от 2 мая 2006 года № 59-ФЗ «О порядке рассмотрения обращений граждан Российской Федерации» гражданин в своём обращении в обязательном порядке излагает суть предложения, заявления или жалобы. <br> <br>
+                                    В целях объективного и всестороннего рассмотрения Вашего обращения в установленные сроки необходимо в тексте обращения указывать адрес описанного Вами места действия, факта или события, а также можно указать телефон для возможного уточнения содержания Вашего обращения. 
+                                   </p>
+    
+                                   <label>
+                                    <p class="message__text">Текст обращения</p>
+                                    <textarea name="message" rows="7" required=""></textarea>
+                                   </label>
+                               </div>
+                               
+                               <div class="upload">
+                                    <p class="upload__text" onclick="uploadFile(this)">
+                                        + Прикрепить файл
+                                    </p>
+                                    <p class="delete__file" onclick="deleteFile()">
+                                        Убрать файл
+                                    </p>
+                                    <input type="file" name="file">
+                               </div>
+
+                               <div style="width: 100%;">
+                                <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-tkkpqdekyw55" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI&amp;co=aHR0cDovLzEyNy4wLjAuMTo1NTAw&amp;hl=ru&amp;v=-QbJqHfGOUB8nuVRLvzFLVed&amp;size=normal&amp;cb=uz8u31wu0dkn"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                               </div>
+
+                               <button type="submit">Отправить</button>
+                               
+                               <p class="iagree">
+                                Нажимая на кнопку, я принимаю условия пользовательского соглашения и даю согласие на обработку моих персональных данных.
+                               </p>
+                            </form>
+                        </div>
+                        
+                    </div>
+            </section>
+
+            <section id="inform__resources"></section>
+
+        </main>
+
+        <footer></footer>
+
+    </div>
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
+    
+
+
+    <script src="dist/owl.carousel.min.js" defer></script>
+    <script type="module" src="components/Header/getheader.js"></script>
+    <script src="components/SideTool/getSideTool.js"></script>
+    <script src="components/InformSlider/getInfoSlider.js"></script>
+    <script src="components/Footer/getfooter.js"></script>
+
+    <script>
+        
+function uploadFile(text){
+    let input = document.querySelector('.upload input');
+    input.click();
+    input.addEventListener('change', (e)=>{
+        let fileName = e.target.files[0].name;
+        console.log(text.innerText);
+        text.innerText = fileName;
+        document.querySelector('.delete__file').classList.add('active__delete');
+        console.log(e.target.files);
+
+    })
+}
+
+function deleteFile(){
+    let input = document.querySelector('.upload input');
+    input.value = null;
+    document.querySelector('.upload__text').innerText = '+ Прикрепить файл'
+    document.querySelector('.delete__file').classList.remove('active__delete');
+}
+
+    </script>
+</body>
+</html>

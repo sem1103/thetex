@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+#footer__content{
+    background-color: #333;
+    padding: 55px 0 50px;
+    height: 100vh;
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+    transition: all .3s ease-in-out;
+}
+
+footer section, footer li,
+.logo__name,
+.footer__soc ul,
+.footer__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer section, footer li {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .logo__name h4 {
+    color: #fff;
+    font: 400 14px Montserrat;
+    line-height: 19px;
+    letter-spacing: 0.96px;
+}
+
+footer section ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+footer section ul li:first-child {
+    margin: 0 0 20px;
+}
+footer section ul li {
+    margin: 0 0 8px;
+}
+.footer__info li {
+    margin: 0 0 20px 0;
+    align-items: flex-end;
+    column-gap: 17px;
+}
+
+footer section li a, .footer__logo p, .footer__text, .copyright a {
+    color: #999;
+}
+footer section li:first-of-type a, .footer__info a, .footer__info p {
+    color: #fff;
+}
+footer section li:first-of-type a {
+    font-size: 15px;
+}
+footer section li a, .footer__logo p {
+    font-size: 13px;
+    line-height: 20px;
+}
+li a, .info__header, .info__header a {
+    color: #fff;
+    font: 600 12px Montserrat;
+}
+.footer__info li p {
+    font-size: 14px;
+}
+
+
+.footer__soc a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 39px;
+    height: 39px;
+    background: #474747;
+}
+.footer__soc li {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+
+
+
+/*GAP*/
+.logo__name, .footer__soc ul{
+    gap: 10px;
+}
+.footer__logo{
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+/*----------*/
